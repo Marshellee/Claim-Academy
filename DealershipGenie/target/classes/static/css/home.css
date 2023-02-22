@@ -1,0 +1,61 @@
+html body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+*:not(head){
+    display: flex;
+}
+
+/* Directions*/
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.aligncenter{
+    align-items: center;
+}
+
+.justifycenter{
+    justify-content: center;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header */
+
+.header{
+    height: 10%;
+    background-color: rgb(224, 93, 93);
+    color: bisque;
+    font-size: 30px;
+}
+
+/* Body */
+
+.body{
+    height: 30%;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.text{
+    text-decoration: none;
+    font-size: 65px;
+    color: rgb(224, 93, 93);
+}
+
+.textalign{
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+.icon{
+    justify-content: left;
+    align-items: center;
+}
+
+.margin{
+    margin: auto;
+}
+
+.margini{
+    margin:auto 0px;
+    padding-left: 80px;
+}
+
+.dropdown{
+    visibility: hidden;
+    position: fixed;
+    margin-top: 9%;
+    align-items: center;
+    width: 100px;
+    border: 1px solid bisque;
+}
+
+.icon:hover .dropdown{
+
+    visibility: visible;
+    background-color: rgb(224, 93, 93);
+
+}
+
+.linx{
+    text-decoration: none;
+    align-items: center;
+    margin: 10px;
+    font-size: large;
+}
+
+.nwidth{
+    width: 21%;
+}
+
+.main{
+    height: 90%;
+}
+
+.details{
+    border: 2px solid rgb(224, 93, 93);
+    padding: 10px;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics{
+    height: 163px;
+    width: 300px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.carbox{
+    height: 100%;
+    width: 67%;
+    border: 1px solid bisque;
+    justify-content: left;
+    padding: 10px;
+
+}
+
+.top{
+    width: 100%;
+    border: 2px solid rgb(224, 93, 93);
+    text-align: center;
+    height: 130px;
+}
+
+.right{
+    justify-content: right;
+}
+
+.pad{
+    padding: 3px;
+    font-size: larger;
+    margin-top: 0;
+}
+
+.options{
+    height: 100%;
+    width: 33%;
+    justify-content: right;
+    border: 1 px solid rgb(224, 93, 93);
+    padding: 5px;
+}
